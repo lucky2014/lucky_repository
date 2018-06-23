@@ -1,0 +1,68 @@
+<!doctype>
+<html>
+<head>
+	<style>
+		#container{ width: 400px; height: 200px; background: red; color: #fff; text-align: center; line-height: 200px; font-size: 40px;}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+	<button id="button">取消边界</button>
+	
+	<script type="text/javascript" src="./DN.js"></script>
+	<script type="text/javascript">
+		var count = 1;
+		var container = document.getElementById("container");
+
+		function getUserAction(e){
+			 //ajax或者其他异步操作
+			container.innerHTML = count++;
+			return true;
+		}
+
+		var setUserAction = $.debounce(getUserAction, 10000, true);
+
+		container.onmousemove = setUserAction;
+
+
+		document.getElementById("button").addEventListener("click", function(){
+			// console.log(setUserAction.cancel);
+			setUserAction.cancel();	
+		});
+
+		//如何去做架构？不让getUser触发那么频繁
+
+		// function debounce(func, wait, immediate){
+		// 	var timeout, result;
+		// 	return function(){
+		// 		var context = this;
+		// 		var args = arguments;
+
+		// 		clearTimeout(timeout);
+
+		// 		//执行边界
+		// 		if(immediate){
+		// 			//如果timeout不存在， callNow == true
+		// 			var callNow = !timeout;
+		// 			timeout = setTimeout(function() {
+		// 				timeout = null
+		// 			},  wait);
+
+		// 			if(callNow){
+		// 				//立马执行
+		// 				result = func.apply(context, args);
+		// 			}
+		// 		}else{
+		// 			timeout = setTimeout(function() {
+		// 				//执行func方法，在context上下文环境
+		// 				//apply和call的区别
+		// 				func.apply(context, args);
+		// 			}, wait);
+		// 		}
+
+		// 		return result;
+		// 	}
+		// }
+	</script>
+</body>
+</html>
