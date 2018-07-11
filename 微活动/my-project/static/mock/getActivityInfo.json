@@ -1,0 +1,60 @@
+var params = {
+    activityId:2558,
+    account:oYH_HvvF6LMuzpfcIo-qfytMVVNg
+}
+
+{
+    "resultCode": 1000,
+    "returnObject": {
+        "activityTemplate": {
+            "createTime": 1528607735000,
+            "id": 33,
+            "isDelete": "n",
+            "joinTemplateId": "39",
+            "mainUrl": "https://file.iliujia.com/group2/M00/09/BE/wKgCP1scs9GAASbJAAQ6e0m-QdM903.png",
+            "modifyTime": 1528607735000,
+            "name": "人保问卷答题",
+            "previewUrl": "33",
+            "templateType": 11,
+            "type": 1,
+            "winPrizeTemplateId": "39"
+        },
+        "activityUrl": "https://h5.iliujia.com/activity/YXZKaEd1akVUNFU9/wx",
+        "appId": 4,
+        "cityId": 0,
+        "code": "YXZKaEd1akVUNFU9",
+        "costReturn": "n",
+        "cycleTime": 1,
+        "endTime": 1533052799000,
+        "formItem": 1,
+        "formItemJsonList": [],
+        "gameMainImgUrl": "",
+        "getPrizeUrl": "https://h5.iliujia.com/activity/getPrize/YXZKaEd1akVUNFU9/wx",
+        "id": 2558,
+        "insureHit": false,
+        "mainImgUrl": "https://file.iliujia.com/group2/M00/09/BE/wKgCP1scs9GAASbJAAQ6e0m-QdM903.png",
+        "openStatus": "1",
+        "payNum": 0.00,
+        "payedNum": 0.00,
+        "perLimit": 2,
+        "perTotal": -1,
+        "previewUrl": "https://h5.iliujia.com/activity/preview/YXZKaEd1akVUNFU9?previewInfo=activity|https://h5.iliujia.com/activity/preview/YXZKaEd1akVUNFU9?previewInfo=prize",
+        "prizeList": [],
+        "prizeStep": "<p>22</p>",
+        "provinceId": 0,
+        "qrUrl": "https://liujia-app.oss-cn-hangzhou.aliyuncs.com/201807/343294117940719616.jpg",
+        "rule": "<p>1、每位用户仅限1次参与机会。</p><p>2、活动时间：2018-07-02 / 2018-07-31。</p><p>3、本次活动最终解释权归******所有。</p>",
+        "shareIsShow": 1,
+        "shareTimes": 0,
+        "startTime": 1530460800000,
+        "status": "4",
+        "templateId": 33,
+        "templateName": "人保问卷答题",
+        "templateType": 11,
+        "thumbImgUrl": "https://file.iliujia.com/group2/M00/09/BE/wKgCP1scs9iANzekAAhAPk8AIz4561.png",
+        "title": "测试",
+        "type": 1,
+        "userId": 11,
+        "winTotal": -1
+    }
+}

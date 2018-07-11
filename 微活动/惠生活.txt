@@ -1,0 +1,27 @@
+token:  2d0cb18b23a84eb2bcccdc22f287acfd
+
+
+测试访问地址：
+http://zzapp.iok.la/rs_hsh_server/test.jsp     http://shmily480.cn:8880/rs_hsh_server/test.jsp
+
+
+接口：http://shmily480.cn:8880/rs_hsh_server/http/Server.do 
+
+
+
+
+SVN2：http://shmily480.cn:8888/svn/   以后不行，用这个地址也可以
+
+
+svn1：http://122.224.218.55:8088/svn/%E4%BA%BA%E5%AF%BF%E4%BF%9D%E9%99%A9/%E6%83%A0%E7%94%9F%E6%B4%BB
+
+
+
+svn1：http://122.224.218.55:8088/svn/%E4%BA%BA%E5%AF%BF%E4%BF%9D%E9%99%A9/%E6%83%A0%E7%94%9F%E6%B4%BB
+
+5/18
+
+http://wx.yinnima.com/rs_hsh_server/index.do?WF_zjToken=1234567890
+
+
+http://wx.yinnima.com/rs_hsh_server/test.jsp

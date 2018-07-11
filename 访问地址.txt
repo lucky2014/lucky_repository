@@ -1,0 +1,8 @@
+惠生活：http://wx.yinnima.com/rs_hsh_server/index.do?WF_zjToken=1234567890
+
+微商城：http://wx.yinnima.com/liujia-certification-server/caiyuanbaoCertification/preGetCode.do
+
+用户名：杭州龙骞科技
+密码：hzdracom2018
+
+C端在微信打开：https://store.yinnima.com/micro-store-cus/index/viewStore/93/caiyuanbao?phone=18768107001

@@ -1,0 +1,97 @@
+/*默认主题色*/
+.theme-color{
+    color:#3c7fe0 !important;
+}
+.theme-question-color{
+    color:#3c7fe0;
+}
+.btn-default-color{
+    background: #DC1010;
+}
+.flex{
+    display: flex;
+    display: -webkit-flex;
+}
+.btns-default{
+    width:42.67%;
+}
+.buttons{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.white-bg-color{
+    background-color: #fff;
+}
+.theme-bg-color{
+    background-color:#3677e3;
+}
+.border-color{
+    border-color:#DC1010;
+}
+.border-link-color{
+    border-color:#3c7fe0;
+}
+.btn-active-color{
+    background: #FD6403;
+}
+.white-color{
+    color:#fff;
+}
+.font-normal{
+    font-size:14px;
+}
+.font-large{
+    font-size:16px;
+}
+.font-large-2{
+    font-size:18px;
+}
+.font-larger{
+    font-size:24px;
+}
+.font-small{
+    font-size:12px;
+}
+.m-t-1{
+    margin-top:7px;
+}
+.m-t-2{
+    margin-top:13px;
+}
+.m-t-3{
+    margin-top:19px;
+}
+.m-t-4{
+    margin-top:25px;
+}
+.m-b-1{
+    margin-bottom:7px;
+}
+.m-b-2{
+    margin-bottom:13px;
+}
+.m-b-3{
+    margin-bottom:19px;
+}
+.m-b-4{
+    margin-bottom:25px;
+}
+.m-r-1{
+    margin-right:7px;
+}
+.m-r-2{
+    margin-right:13px;
+}
+.m-r-3{
+    margin-right:19px;
+}
+.m-r-4{
+    margin-right:25px;
+}
+.bold{
+    font-weight:bold;
+}
